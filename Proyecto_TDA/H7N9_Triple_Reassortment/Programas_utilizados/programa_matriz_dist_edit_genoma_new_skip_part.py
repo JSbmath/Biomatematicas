@@ -3,7 +3,7 @@ import numpy as np
 temp_name=""
 
 #Lee el archivo FASTA y manda los nombres y secuencias a un diccionario
-with open('concatenated_all_genome.fasta') as f:
+with open('archivo.fasta') as f:
   sequences = {}
   name = None
   for line in f:
