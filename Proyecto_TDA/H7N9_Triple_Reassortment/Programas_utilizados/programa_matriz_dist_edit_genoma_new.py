@@ -3,7 +3,7 @@ import numpy as np
 temp_name=""
 
 #Lee el archivo FASTA y manda los nombres y secuencias a un diccionario
-with open('concatenated_all_genome.fasta') as f:
+with open('archivo.fasta') as f:
   sequences = {}
   name = None
   for line in f:
@@ -25,10 +25,10 @@ while sequences[temp_name][add_spaces_in]=='-':
 while sequences[temp_name][len(sequences[temp_name])-1-add_spaces_fin]=='-': 
   add_spaces_fin= add_spaces_fin+1
 
-#print(len(sequences[temp_name]))
+print(len(sequences[temp_name]))
 #print(sequences[temp_name][add_spaces_in])
 #print(sequences[temp_name][len(sequences[temp_name])-add_spaces_fin])
-#print(str(add_spaces_in)+"    "+str(add_spaces_fin))
+print(str(add_spaces_in)+"    "+str(add_spaces_fin))
 
 #Imprime los nombres de las secuencias encontradas.
 print("Secuencias:")
@@ -44,16 +44,13 @@ for i in range(num_seqs):
     name1, seq1 = list(sequences.items())[i]
     name2, seq2 = list(sequences.items())[j]
     diff_count = 0
-    for k in range(0,6820):
+    for k in range(0,len(seq1)):
       # Para cada par de secuencias, cuenta el número de diferencias (mutaciones) entre ellas en los rangos especificados.
       #if seq1[k] != seq2[k]:
       #if seq1[k] != seq2[k] and seq1[k]!= 'N' and seq2[k]!= 'N':
       if seq1[k] != seq2[k] and seq1[k]!= '-' and seq2[k]!= '-':
         diff_count += 1
-
-    for k in range(7636,len(seq1)):
-      if seq1[k] != seq2[k] and seq1[k]!= '-' and seq2[k]!= '-':
-        diff_count += 1
+      
       #Guarda las distancias en la matriz de distancia simétrica
       dist_matrix[i,j] = diff_count
       dist_matrix[j,i] = diff_count
