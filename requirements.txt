@@ -1,7 +1,6 @@
-```
-   jupyter
-   voila
-   ipywidgets
-   plotly
-   networkx
-```
+jupyter
+voila
+ipywidgets
+plotly
+networkx
+
