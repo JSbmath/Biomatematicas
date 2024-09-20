@@ -14,8 +14,8 @@ jobs:
           python-version: '3.8'
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          jupyter nbconvert --to html prueba1.ipynb
+          mv prueba1.html index.html
       - name: Build the book
         run: |
           pwd
@@ -26,14 +26,9 @@ jobs:
           ls -la
           mv prueba1.html index.html
           ls -la
-      - name: GitHub Pages action
-        uses: peaceiris/actions-gh-pages@v3.6.1
-        with:
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
-          keep_files: false
-          force_orphan: true
-      - name: Check deployment
-        run: |
-          git checkout gh-pages
-          ls -la
+          force_orphan: true 
