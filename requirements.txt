@@ -1,7 +1,0 @@
-jupyter
-voila
-ipywidgets
-plotly
-networkx
-nbconvert
-
