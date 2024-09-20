@@ -8,15 +8,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
+
       - name: Set up Python
         uses: actions/setup-python@v2
         with:
           python-version: '3.8'
+
       - name: Install dependencies
         run: |
-          jupyter nbconvert --to html prueba1.ipynb
-          mv prueba1.html index.html
-      - name: Build the book
+          python -m pip install --upgrade pip
+          pip install jupyter nbconvert
+
+      - name: Build and Convert Jupyter Notebook to HTML
         run: |
           pwd
           ls -la
@@ -26,9 +29,11 @@ jobs:
           ls -la
           mv prueba1.html index.html
           ls -la
+
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
-          force_orphan: true 
+          force_orphan: true
+
