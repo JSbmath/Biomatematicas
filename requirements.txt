@@ -3,4 +3,5 @@ voila
 ipywidgets
 plotly
 networkx
+nbconvert
 

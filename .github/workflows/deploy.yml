@@ -18,11 +18,22 @@ jobs:
           pip install -r requirements.txt
       - name: Build the book
         run: |
+          pwd
+          ls -la
+          jupyter --version
+          jupyter nbconvert --version
           jupyter nbconvert --to html prueba1.ipynb
+          ls -la
           mv prueba1.html index.html
+          ls -la
       - name: GitHub Pages action
         uses: peaceiris/actions-gh-pages@v3.6.1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: .
-          keep_files: true
+          keep_files: false
+          force_orphan: true
+      - name: Check deployment
+        run: |
+          git checkout gh-pages
+          ls -la
