@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -17,18 +18,15 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install jupyter nbconvert
+          pip install jupyter nbconvert voila
 
-      - name: Build and Convert Jupyter Notebook to HTML
+      - name: Build and Convert Jupyter Notebook to Voila
         run: |
-          pwd
-          ls -la
-          jupyter --version
-          jupyter nbconvert --version
-          jupyter nbconvert --to html prueba1.ipynb
-          ls -la
+          voila prueba1.ipynb --no-browser --strip_sources=True --to=html --output-path=./
+
+      - name: Move HTML output to index
+        run: |
           mv prueba1.html index.html
-          ls -la
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
