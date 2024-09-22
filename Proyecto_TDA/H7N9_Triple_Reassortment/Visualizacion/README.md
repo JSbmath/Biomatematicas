@@ -6,9 +6,6 @@ Para ejecutar este notebook de forma interactiva sin necesidad de instalar nada 
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/JSbmath/Biomatematicas/HEAD?labpath=Proyecto_TDA%2FH7N9_Triple_Reassortment%2FVisualizacion%2FVisualizacion_HomologiaPersistente_InfluenzaAH7N9.ipynb)
 
-.. image:: https://mybinder.org/badge_logo.svg
- :target: https://mybinder.org/v2/gh/JSbmath/Biomatematicas/HEAD?labpath=Proyecto_TDA%2FH7N9_Triple_Reassortment%2FVisualizacion%2FVisualizacion_HomologiaPersistente_InfluenzaAH7N9.ipynb
-
 Estos enlaces abrirán el notebook `Visualizacion_HomologiaPersistente_InfluenzaAH7N9.ipynb` en un entorno Jupyter Lab ejecutándose en Binder.
 
 ## Contenido del Proyecto
