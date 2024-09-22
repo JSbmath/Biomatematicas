@@ -27,10 +27,3 @@ Estos enlaces abrirán el notebook `Visualizacion_HomologiaPersistente_Influenza
 - La visualización es interactiva. Puedes usar el slider para cambiar el valor de filtración y ver cómo evoluciona el complejo simplicial.
 - Si encuentras algún problema o tienes sugerencias, por favor abre un issue en este repositorio.
 
-## Contribuciones
-
-Las contribuciones son bienvenidas. Por favor, abre un pull request para sugerir mejoras o añadir nuevas características.
-
-## Licencia
-
-[Incluye aquí la información de la licencia de tu proyecto]
