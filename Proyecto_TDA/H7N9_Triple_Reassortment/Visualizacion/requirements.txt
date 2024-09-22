@@ -1,11 +1,12 @@
 numpy
 scipy
 gtda
-igraph
+python-igraph
 matplotlib
 seaborn
 networkx
 plotly
 gudhi
 ipywidgets
-
+jupyter-dash
+nbformat>=4.2.0
