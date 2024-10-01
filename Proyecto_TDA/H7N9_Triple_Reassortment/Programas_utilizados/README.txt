@@ -1,6 +1,6 @@
 Descripción de cada uno de los programas:
 
-programa_matriz_dist_edit_genoma_new.py ---> Lee un archivo con terminación fasta llamado "archivo.fasta". Imprime la las secuencias presentes en el archivo e imprime la matriz de distancia. 
+programa_matriz_dist_edit_genoma_new.py ---> Lee un archivo con terminación fasta llamado "archivo.fasta". Imprime las secuencias presentes en el archivo e imprime la matriz de distancia. 
 
 programa_matriz_dist_edit_genoma_new_skip_part.py ---> Lo mismo que el anterior solo que no concidera las diferencias de las secuencias en el rango (6820-7636) de cada genoma 
 
