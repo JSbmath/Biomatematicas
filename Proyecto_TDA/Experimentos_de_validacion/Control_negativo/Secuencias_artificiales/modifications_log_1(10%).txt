@@ -1,0 +1,120 @@
+
+Variante 1 de A/brambling/Beijing/16/2012(H9N2):
+Segmentos modificados: [7, 2, 4, 6]
+Nuevo nombre: A/bramblingv1/Beijing/16/2012(H9N2)_variant_1
+
+Variante 2 de A/brambling/Beijing/16/2012(H9N2):
+Segmentos modificados: [8]
+Nuevo nombre: A/bramblingv2/Beijing/16/2012(H9N2)_variant_2
+
+Variante 3 de A/brambling/Beijing/16/2012(H9N2):
+Segmentos modificados: [4, 2, 6, 8]
+Nuevo nombre: A/bramblingv3/Beijing/16/2012(H9N2)_variant_3
+
+Variante 4 de A/brambling/Beijing/16/2012(H9N2):
+Segmentos modificados: [7, 5]
+Nuevo nombre: A/bramblingv4/Beijing/16/2012(H9N2)_variant_4
+
+Variante 5 de A/brambling/Beijing/16/2012(H9N2):
+Segmentos modificados: [6, 2, 3]
+Nuevo nombre: A/bramblingv5/Beijing/16/2012(H9N2)_variant_5
+
+Variante 1 de A/quail/Wuxi/7/2010(H9N2):
+Segmentos modificados: [7, 5]
+Nuevo nombre: A/quailv1/Wuxi/7/2010(H9N2)_variant_1
+
+Variante 2 de A/quail/Wuxi/7/2010(H9N2):
+Segmentos modificados: [8, 4]
+Nuevo nombre: A/quailv2/Wuxi/7/2010(H9N2)_variant_2
+
+Variante 3 de A/quail/Wuxi/7/2010(H9N2):
+Segmentos modificados: [2, 1, 6, 3]
+Nuevo nombre: A/quailv3/Wuxi/7/2010(H9N2)_variant_3
+
+Variante 4 de A/quail/Wuxi/7/2010(H9N2):
+Segmentos modificados: [5, 3, 4]
+Nuevo nombre: A/quailv4/Wuxi/7/2010(H9N2)_variant_4
+
+Variante 5 de A/quail/Wuxi/7/2010(H9N2):
+Segmentos modificados: [2]
+Nuevo nombre: A/quailv5/Wuxi/7/2010(H9N2)_variant_5
+
+Variante 1 de A/quail/Lebanon/273/2010(H9N2):
+Segmentos modificados: [6, 8, 1]
+Nuevo nombre: A/quailv1/Lebanon/273/2010(H9N2)_variant_1
+
+Variante 2 de A/quail/Lebanon/273/2010(H9N2):
+Segmentos modificados: [1, 2]
+Nuevo nombre: A/quailv2/Lebanon/273/2010(H9N2)_variant_2
+
+Variante 3 de A/quail/Lebanon/273/2010(H9N2):
+Segmentos modificados: [2]
+Nuevo nombre: A/quailv3/Lebanon/273/2010(H9N2)_variant_3
+
+Variante 4 de A/quail/Lebanon/273/2010(H9N2):
+Segmentos modificados: [5, 4, 2]
+Nuevo nombre: A/quailv4/Lebanon/273/2010(H9N2)_variant_4
+
+Variante 5 de A/quail/Lebanon/273/2010(H9N2):
+Segmentos modificados: [4]
+Nuevo nombre: A/quailv5/Lebanon/273/2010(H9N2)_variant_5
+
+Variante 1 de A/Shanghai/02/2013(H7N9):
+Segmentos modificados: [1, 2, 4, 6]
+Nuevo nombre: A/Shanghaiv1/02/2013(H7N9)_variant_1
+
+Variante 2 de A/Shanghai/02/2013(H7N9):
+Segmentos modificados: [3, 7, 5]
+Nuevo nombre: A/Shanghaiv2/02/2013(H7N9)_variant_2
+
+Variante 3 de A/Shanghai/02/2013(H7N9):
+Segmentos modificados: [2]
+Nuevo nombre: A/Shanghaiv3/02/2013(H7N9)_variant_3
+
+Variante 4 de A/Shanghai/02/2013(H7N9):
+Segmentos modificados: [8, 4]
+Nuevo nombre: A/Shanghaiv4/02/2013(H7N9)_variant_4
+
+Variante 5 de A/Shanghai/02/2013(H7N9):
+Segmentos modificados: [8]
+Nuevo nombre: A/Shanghaiv5/02/2013(H7N9)_variant_5
+
+Variante 1 de A/wild bird/Korea/A14/2011(H7N9):
+Segmentos modificados: [2]
+Nuevo nombre: A/wild birdv1/Korea/A14/2011(H7N9)_variant_1
+
+Variante 2 de A/wild bird/Korea/A14/2011(H7N9):
+Segmentos modificados: [8, 2, 7]
+Nuevo nombre: A/wild birdv2/Korea/A14/2011(H7N9)_variant_2
+
+Variante 3 de A/wild bird/Korea/A14/2011(H7N9):
+Segmentos modificados: [7, 5, 6]
+Nuevo nombre: A/wild birdv3/Korea/A14/2011(H7N9)_variant_3
+
+Variante 4 de A/wild bird/Korea/A14/2011(H7N9):
+Segmentos modificados: [7, 1]
+Nuevo nombre: A/wild birdv4/Korea/A14/2011(H7N9)_variant_4
+
+Variante 5 de A/wild bird/Korea/A14/2011(H7N9):
+Segmentos modificados: [7, 3, 8]
+Nuevo nombre: A/wild birdv5/Korea/A14/2011(H7N9)_variant_5
+
+Variante 1 de A/duck/Zhejiang/10/2011(H7N3):
+Segmentos modificados: [7]
+Nuevo nombre: A/duckv1/Zhejiang/10/2011(H7N3)_variant_1
+
+Variante 2 de A/duck/Zhejiang/10/2011(H7N3):
+Segmentos modificados: [7]
+Nuevo nombre: A/duckv2/Zhejiang/10/2011(H7N3)_variant_2
+
+Variante 3 de A/duck/Zhejiang/10/2011(H7N3):
+Segmentos modificados: [7]
+Nuevo nombre: A/duckv3/Zhejiang/10/2011(H7N3)_variant_3
+
+Variante 4 de A/duck/Zhejiang/10/2011(H7N3):
+Segmentos modificados: [1, 8]
+Nuevo nombre: A/duckv4/Zhejiang/10/2011(H7N3)_variant_4
+
+Variante 5 de A/duck/Zhejiang/10/2011(H7N3):
+Segmentos modificados: [8, 7, 2, 1]
+Nuevo nombre: A/duckv5/Zhejiang/10/2011(H7N3)_variant_5
